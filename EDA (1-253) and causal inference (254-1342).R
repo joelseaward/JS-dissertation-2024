@@ -426,7 +426,7 @@ plot(miic.fit.2,
      edge.color="black")
 
 ##### Now separate home and away
-##### Though we have no assumed causal sufficiency, we still allow MIIC to search for latent variables. This is to check our assumption and if home variables are confounded by away variables or vice-versa.
+##### Though we have now assumed causal sufficiency, we still allow MIIC to search for latent variables. This is to check our assumption and if home variables are confounded by away variables or vice-versa.
 
 miic.data.home.with.team=miic.data.1[c(1,2,3,4,5,7,10,11,13,15,17,19,21,23)]
 miic.data.away.with.team=miic.data.1[c(1,2,3,4,6,8,9,12,14,16,18,20,22,24)]
